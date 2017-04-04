@@ -1,3 +1,7 @@
+
+.kolorTla{
+  background-color: #bfff00;
+}
 .helper-img-tuner-holder-3of4 {
     padding-bottom: 75%
 }
@@ -219,7 +223,7 @@ h6 {
 @font-face {
     font-family: 'Icons';
     src: url('http://ocdn.eu/paas-static/nk/9923ed30ae5e2680edacf4038eec04a0/build/icons.eot');
-    src: url('http://ocdn.eu/paas-static/nk/9923ed30ae5e2680edacf4038eec04a0/build/icons.eot?#iefix') format('embedded-opentype'), 
+    src: url('http://ocdn.eu/paas-static/nk/9923ed30ae5e2680edacf4038eec04a0/build/icons.eot?#iefix') format('embedded-opentype'),
 	url('http://ocdn.eu/paas-static/nk/9923ed30ae5e2680edacf4038eec04a0/build/icons.woff') format('woff');
     font-weight: normal;
     font-style: normal
@@ -513,9 +517,11 @@ body {
 }
 .l-container {
     position: relative;
-    width: 92%;
+
+    width: 40%;
     max-width: 1024px;
     margin: 0 auto;
+    margin-left: 70%;
     *zoom: 1
 }
 .l-container:before,
@@ -1234,7 +1240,7 @@ body {
     clear: both
 }
 .footer__content {
-    margin-top: 20px;
+    text-align:left;
     background-color: #1565c0
 }
 .footer__links,
@@ -1622,9 +1628,14 @@ textarea[disabled] {
     pointer-events: none
 }
 .form {
-    margin: -5px;
+    margin-right: 60%;
+    position: absolute;
+    width:40%;
+    margin: 0 auto;
+    margin-top:10%;
+    padding-left:5%;
     *zoom: 1
-}
+    }
 .form:before,
 .form:after {
     content: '';
